@@ -1,0 +1,23 @@
+ALGORITHM checkpoint
+var
+j,i:integer;
+str:string;
+Begin
+str_lenght:=0;
+word:=1;
+vowels:=0
+read(str);
+str:="hello word."
+do 
+IF (str[str_lengh]='') THEN
+    word:=word+1;
+    else IF (str[str_lengh]='e'or str[sr_lengh]'a'or str[str_lengh]=i or str[str_lenh]='o'or str[str_lengh]='u') THEN
+        vowels:=vowels+1;
+
+    END_IF
+str_lengh:=str_lengh+1;
+WHILE (str[str_lengh]<>'.')
+    set_instructions
+END_WHILE(str[str_lengh]<>'.')
+
+END
